@@ -54,4 +54,4 @@ cd api/ && clear && php artisan queue:listen --timeout=0
 
 # Additional information
 
-When your servers are run, user `user_1@gmail.com` and `user_2@gmail.com` as logins. Then type __ANY__ password you want and you will be headed over to the messanger page.
+When your servers are run, use `user_1@gmail.com` and `user_2@gmail.com` as logins. Then type __ANY__ password you want and you will be headed over to the messanger page.
