@@ -1,0 +1,82 @@
+/* * Importing fornt * */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700,800&display=swap');
+
+/* * Remove outlines * */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+/* * Remove numeral input arrows * */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+
+/* * Defaults * */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.4;
+	color: #fff;
+}
+
+.form {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form > input {
+	padding: 10px;
+	border: none;
+	background-color: rgb(235, 235, 235);
+}
+
+.form > button {
+	border: none;
+	padding: 10px;
+	background-color: black;
+	color: #fff;
+}
