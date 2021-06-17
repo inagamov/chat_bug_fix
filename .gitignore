@@ -1,3 +1,25 @@
-/api/vendor
-/api/.env
+# Vue
+/web/.DS_Store
 /web/node_modules
+/web/dist
+
+# Images
+/web/src/assets/img/uploads/*
+
+# local env files
+/web/.env.local
+/web/.env.*.local
+
+# Log files
+/web/npm-debug.log*
+/web/yarn-debug.log*
+/web/yarn-error.log*
+/web/pnpm-debug.log*
+
+# Laravel
+/api/public/storage
+/api/storage/*.key
+/api/vendor
+
+# Laravel-echo
+/socket.io/laravel-echo-server.lock
