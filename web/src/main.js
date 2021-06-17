@@ -13,12 +13,15 @@ axios.defaults.baseURL = "http://127.0.0.1:8000/api"
 Vue.config.productionTip = false;
 
 // Laravel-echo & Socket.io
+localStorage.debug = '*';
+
 import Echo from "laravel-echo"
 window.io = require('socket.io-client')
 
 window.Echo = new Echo({
     broadcaster: 'socket.io',
     host: 'http://localhost:6001',
+    authEdpoint: "https://127.0.0.1:8000/api/broadcasting/auth",
     auth: {
         headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`

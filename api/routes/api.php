@@ -38,3 +38,7 @@ Route::group(['middleware' => 'api', 'prefix' => 'messenger'], function () {
     Route::post('/attach/image', 'MessengerController@attachImage');
     Route::post('/mark-as-read', 'MessengerController@markAsRead');
 });
+
+Route::middleware('auth')->post('/broadcasting/auth', function () {
+    return true;
+});
