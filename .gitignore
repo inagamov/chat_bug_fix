@@ -1,2 +1,3 @@
-/api/vendore
+/api/vendor
+/api/.env
 /web/node_modules
