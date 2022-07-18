@@ -1,4 +1,4 @@
-# Installation
+# 📍 Installation
 
 ### Install dependencies for Vue.js
 ```
@@ -12,7 +12,7 @@ cd api/ && composer install
 
 <br>
 
-# Run servers
+# 📍 Run servers
 
 ### Start Vue.js server
 ```
@@ -36,7 +36,7 @@ cd api/ && clear && php artisan queue:listen --timeout=0
 
 <br>
 
-# DB manage
+# 📍 DB manage
 
 1. Create `chat_bug_fix` database.
 2. Migrate tables to the database using ```cd api/ && php artisan migrate```.
